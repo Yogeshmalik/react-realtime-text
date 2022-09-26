@@ -1,0 +1,82 @@
+* {
+  font-family: "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: whitesmoke;
+}
+
+form,
+.info_out,
+.article,
+p,
+input,
+label {
+  background-color: white;
+}
+
+.title {
+  color: black;
+  text-decoration: underline;
+  border-radius: 20%;
+  padding: 10px;
+  font-family: sans-serif;
+  background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+  background-image: url("https://assets.codepen.io/t-1/user-default-avatar.jpg?format=auto");
+}
+
+.info,
+.select {
+  text-align: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.article,
+.hero {
+  box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0, 0, 0, 0.15);
+
+}
+
+.info_out {
+  max-width: 50%;
+  color: cornflowerblue;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: blueviolet solid 4px;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  padding: 15px;
+  margin: auto;
+}
+
+.diet,
+.radio {
+  max-width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+}
